@@ -41,7 +41,7 @@ def determine_max_gap(date_list):
     _incident_1 = datetime.date.today()
     _incident_2 = datetime.date.today()
     for _atk_no in range(len(date_list) - 1):
-        _days_between_attacks = (date_list[_atk_no + 1] - date_list[_atk_no]).days
+        _days_between_attacks = (date_list[_atk_no + 1] - date_list[_atk_no]).days - 1
         if  _days_between_attacks > days_without_incident:
             _incident_1 = date_list[_atk_no]
             _incident_2 = date_list[_atk_no + 1]
