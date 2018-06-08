@@ -7,12 +7,12 @@ Riddler Nation has been enlisted by the Pentagon to perform crucial (and arithme
 In the first equation, letters accidentally were smudged on their clandestine journey to a safe room within Riddler Headquarters and are now unreadable. (These are represented with dashes below.) But we know that all 10 digits, 0 through 9, appear in the equation.
 
 Given:
-{
-		E  X  M  R  E  E  K
-+		E  H  K  R  E  K  K
- __________________________
- -  K  -  H  -  X  -  E
-}
+
+`		  E  X  M  R  E  E  K`
+`+		E  H  K  R  E  K  K`
+` _______________________`
+`  -  K  -  H  -  X  -  E`
+
 
 Riddle:
 What digits belong to what letters, and what are the dashes?
@@ -42,22 +42,22 @@ Looking at the possible values, we have two scenarios for E and K:
 	However, if X + H does have a carryover bit, then E + E + 1 = 6 + 6 + 1 = 13. This is possible, and everything so far has been legal.
 
 So far, we know the following:
-	The ten millions place in the sum = 1
-	K = 3
-	E = 6
+	`The ten millions place in the sum = 1`
+	`K = 3`
+	`E = 6`
 
-	Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)
-	Our remaining varaibles are 	(X H M R - - -)
+	`Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)`
+	`Our remaining varaibles are 	(X H M R - - -)`
 
 
 We can rewrite the problem as follows:
-{
-       (1)
-			 	6  X  M  R  6  6  3
-+       6  H  3  R  6  3  3
- __________________________
-     1  3  -  H  -  X  -  6
-}
+
+`       (1)`
+`			 	 6  X  M  R  6  6  3`
+`+       6  H  3  R  6  3  3`
+` __________________________`
+`     1  3  -  H  -  X  -  6`
+
 
 At this point, we can evalueate a little bit more and figure out a few more things!
 
@@ -66,23 +66,23 @@ With no carryover from the tens place, the sum in the hundreds place is 6 + 6. T
 
 
 Rewriting again:
-{
-       (1)      (1)
-			 	6  2  M  R  6  6  3
-+       6  H  3  R  6  3  3
- __________________________
-     1  3  -  H  -  2  9  6
-}
+
+`       (1)      (1)`
+`			 	 6  2  M  R  6  6  3`
+`+       6  H  3  R  6  3  3`
+` __________________________`
+`     1  3  -  H  -  2  9  6`
+
 
 At this point, we know the follwing:
-	The ten millions place in the sum = 1
-	K = 3
-	E = 6
-	The tens place in the sum = 9
-	X = 2
+	`The ten millions place in the sum = 1`
+	`K = 3`
+	`E = 6`
+	`The tens place in the sum = 9`
+	`X = 2`
 
-	Our remaining digits to use are (0, 4, 5, 7, 8)
-	Our remaining variables are	(H M R - -)
+	`Our remaining digits to use are (0, 4, 5, 7, 8)`
+	`Our remaining variables are	(H M R - -)`
 
 
 Back to the millions place.
@@ -91,25 +91,25 @@ Furthermore, since we need to use each digit at least once, with 5 digits left t
 This means that H = 8, which means the hundred thousands '-' = 0
 
 Now, we have:
-{
-       (1)      (1)
-			 	6  2  M  R  6  6  3
-+       6  8  3  R  6  3  3
- __________________________
-     1  3  0  8  -  2  9  6
-}
+
+`       (1)      (1)`
+`			 	 6  2  M  R  6  6  3`
+`+       6  8  3  R  6  3  3`
+` __________________________`
+`     1  3  0  8  -  2  9  6`
+
 
 We know the following:
-	The ten millions place in the sum = 1
-	K = 3
-	E = 6
-	The tens place in the sum = 9
-	X = 2
-	H = 8
-	The hundred thousands place in the sum = 0
+	`The ten millions place in the sum = 1`
+	`K = 3`
+	`E = 6`
+	`The tens place in the sum = 9`
+	`X = 2`
+	`H = 8`
+	`The hundred thousands place in the sum = 0`
 
-	Our remaining digits to use are (4, 5, 7)
-	Our remaining variables are	(M R -)
+	`Our remaining digits to use are (4, 5, 7)`
+	`Our remaining variables are	(M R -)`
 
 
 We are in the home stretch!
@@ -129,26 +129,26 @@ Looking at the remaining parts of the equation, we can see that either M + 3 = 8
 
 
 With all of this information, we end up with:
-{
-				6  2  4  7  6  6  3
-+       6  8  3  7  6  3  3
- __________________________
-     1  3  0  8  5  2  9  6
-}
+
+`				 6  2  4  7  6  6  3`
+`+       6  8  3  7  6  3  3`
+` __________________________`
+`     1  3  0  8  5  2  9  6`
+
 
 Finally, we have filled out our equation!
 
 We know the following:
-	The ten millions '-' = 1
-	K = 3
-	E = 6
-	The tens '-' = 9
-	X = 2
-	H = 8
-	The hundred thousands '-' = 0
-	M = 4
-	R = 7
-	The thousands '-' = 5
+	`The ten millions '-' = 1`
+	`K = 3`
+	`E = 6`
+	`The tens '-' = 9`
+	`X = 2`
+	`H = 8`
+	`The hundred thousands '-' = 0`
+	`M = 4`
+	`R = 7`
+	`The thousands '-' = 5`
 
 
 At last, we have 'erased' any fear of smudged numbers!
@@ -162,12 +162,12 @@ PROBLEM 2:
 In the second equation, our mathematical spies have said that one of the letters in the equation is wrong. But they can’t remember which one. Which is it?
 
 Given:
-{
-				Y  T  B  B  E  D  M  K  D
-+       Y  H  D  B  T  Y  Y  D  D
- ________________________________
-     E  D  Y  T  E  R  T  P  T  Y
-}
+
+`				 Y  T  B  B  E  D  M  K  D`
+`+       Y  H  D  B  T  Y  Y  D  D`
+` ________________________________`
+`     E  D  Y  T  E  R  T  P  T  Y`
+
 
 Again, we are given some information:
 Each letter is a distinct digit from any other letter.
@@ -182,21 +182,21 @@ With D + D = Y in the ones place, and Y + Y = D in the hundred millions place, w
 Additionally, we know E must be 1, as we've established the sum of two digits can only yield a carryover of 1 (if any at all)
 
 We can rewrite the problem already:
-{
-       (1)
-			 	6  T  B  B  1  3  M  K  3
-+       6  H  3  B  T  6  6  3  3
- ________________________________
-     1  3  6  T  1  R  T  P  T  6
-}
+
+`       (1)`
+`			 	 6  T  B  B  1  3  M  K  3`
+`+       6  H  3  B  T  6  6  3  3`
+` ________________________________`
+`     1  3  6  T  1  R  T  P  T  6`
+
 
 At this point, we know the following:
-	Y = 6
-	D = 3
-	E = 1
+	`Y = 6`
+	`D = 3`
+	`E = 1`
 
-	Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)
-	Our remaining varaibles are	(T B M K H R P)
+	`Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)`
+	`Our remaining varaibles are	(T B M K H R P)`
 
 Looking at the hundred thousands place, we can see B + B = 1.
 B + B = 1 is only possible with a carryover, as twice the sum of any number must be an even number and 1 is not even.
@@ -205,24 +205,24 @@ If T = 9, H = 7, as in the ten millions place, the sum must end in a 6
 If T = 9, R = 0, as in the ten thousands place, the sum must end in a 0
 
 Rewriting the equation with this information:
-{
-       (1)(1)
-			 	6  9  B  B  1  3  M  K  3
-+       6  7  3  B  9  6  6  3  3
- ________________________________
-     1  3  6  9  1  0  9  P  9  6
-}
+
+`       (1)(1)`
+`			 	 6  9  B  B  1  3  M  K  3`
+`+       6  7  3  B  9  6  6  3  3`
+` ________________________________`
+`     1  3  6  9  1  0  9  P  9  6`
+
 
 At this point, we know the following:
-	Y = 6
-	D = 3
-	E = 1
-	T = 9
-	H = 7
-	R = 0
+	`Y = 6`
+	`D = 3`
+	`E = 1`
+	`T = 9`
+	`H = 7`
+	`R = 0`
 
-	Our remaining digits to use are (2, 4, 5, 8)
-	Our remaining variables are	(B M K P)
+	`Our remaining digits to use are (2, 4, 5, 8)`
+	`Our remaining variables are	(B M K P)`
 
 
 From here, we can see that between the two options for B, B must be 5, as 0 + 0 = 1, and 0 + 3 != 9
@@ -233,24 +233,24 @@ While 8 + 6 = 14 yields a 4 in the ones place, that forces a carryover into the 
 Thus, M = 2 and P = 8
 
 We can rewrite once more:
-{
-       (1)(1)   (1)
-			 	6  9  5  5  1  3  2  K  3
-+       6  7  3  5  9  6  6  3  3
- ________________________________
-     1  3  6  9  1  0  9  8  9  6
-}
+
+`       (1)(1)   (1)`
+`			 	 6  9  5  5  1  3  2  K  3`
+`+       6  7  3  5  9  6  6  3  3`
+` ________________________________`
+`     1  3  6  9  1  0  9  8  9  6`
+
 
 We know:
-	Y = 6
-	D = 3
-	E = 1
-	T = 9
-	H = 7
-	R = 0
-	B = 5
-	M = 2
-	P = 8
+	`Y = 6`
+	`D = 3`
+	`E = 1`
+	`T = 9`
+	`H = 7`
+	`R = 0`
+	`B = 5`
+	`M = 2`
+	`P = 8`
 
 	Our remaining digit is 		(4)
 	Our remaining variable is 	(K)
@@ -258,12 +258,12 @@ We know:
 
 Immediately, we can see that if K = 4, 4 + 3 = 7 != 9 in the tens place. Thus the K is incorrect, and must be replaced with a Y
 
-{
-				6  9  5  5  1  3  2  6  3
-+       6  7  3  5  9  6  6  3  3
- ________________________________
-     1  3  6  9  1  0  9  8  9  6
-}
+
+`				 6  9  5  5  1  3  2  6  3`
+`+       6  7  3  5  9  6  6  3  3`
+` ________________________________`
+     `1  3  6  9  1  0  9  8  9  6`
+
 
 
 Now, we have solved both equations. VictorK!
