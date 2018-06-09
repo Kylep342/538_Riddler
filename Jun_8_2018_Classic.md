@@ -158,6 +158,7 @@ At last, we have 'erased' any fear of smudged numbers!
 ## PROBLEM 2
 
 
+Riddle:
 In the second equation, our mathematical spies have said that one of the letters in the equation is wrong. But they can’t remember which one. Which is it?
 
 Given:
