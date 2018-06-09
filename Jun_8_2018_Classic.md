@@ -4,6 +4,10 @@ From Ben Gundry via Eric Emmet, find and replace with a twist:
 
 Riddler Nation has been enlisted by the Pentagon to perform crucial (and arithmetical) intelligence gathering. Our mission: decode two equations. In each of them, every different letter stands for a different digit. But there is a minor problem in both equations.
 
+
+## PROBLEM 1
+
+
 In the first equation, letters accidentally were smudged on their clandestine journey to a safe room within Riddler Headquarters and are now unreadable. (These are represented with dashes below.) But we know that all 10 digits, 0 through 9, appear in the equation.
 
 Given:
@@ -151,10 +155,8 @@ We know the following:
 At last, we have 'erased' any fear of smudged numbers!
 
 
+## PROBLEM 2
 
-
-
-PROBLEM 2:
 
 In the second equation, our mathematical spies have said that one of the letters in the equation is wrong. But they can’t remember which one. Which is it?
 
