@@ -42,11 +42,11 @@ Looking at the possible values, we have two scenarios for E and K:
 	However, if X + H does have a carryover bit, then E + E + 1 = 6 + 6 + 1 = 13. This is possible, and everything so far has been legal.
 
 So far, we know the following:
-	*The ten millions place in the sum = 1
-	*K = 3
-	*E = 6
-	*Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)
-	*Our remaining varaibles are 	(X H M R - - -)
+ * The ten millions place in the sum = 1
+ * K = 3
+ * E = 6
+ * Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)
+ * Our remaining varaibles are 	(X H M R - - -)
 
 
 We can rewrite the problem as follows:
@@ -74,13 +74,13 @@ Rewriting again:
 ```
 
 At this point, we know the follwing:
-	*The ten millions place in the sum = 1
-	*K = 3
-	*E = 6
-	*The tens place in the sum = 9
-	*X = 2
-	*Our remaining digits to use are (0, 4, 5, 7, 8)
-	*Our remaining variables are	(H M R - -)
+ * The ten millions place in the sum = 1
+ * K = 3
+ * E = 6
+ * The tens place in the sum = 9
+ * X = 2
+ * Our remaining digits to use are (0, 4, 5, 7, 8)
+ * Our remaining variables are	(H M R - -)
 
 
 Back to the millions place.
@@ -98,15 +98,15 @@ Now, we have:
 ```
 
 We know the following:
-	*The ten millions place in the sum = 1
-	*K = 3
-	*E = 6
-	*The tens place in the sum = 9
-	*X = 2
-	*H = 8
-	*The hundred thousands place in the sum = 0
-	*Our remaining digits to use are (4, 5, 7)
-	*Our remaining variables are	(M R -)
+ * The ten millions place in the sum = 1
+ * K = 3
+ * E = 6
+ * The tens place in the sum = 9
+ * X = 2
+ * H = 8
+ * The hundred thousands place in the sum = 0
+ * Our remaining digits to use are (4, 5, 7)
+ * Our remaining variables are	(M R -)
 
 
 We are in the home stretch!
@@ -136,16 +136,16 @@ With all of this information, we end up with:
 Finally, we have filled out our equation!
 
 We know the following:
-	*The ten millions '-' = 1
-	*K = 3
-	*E = 6
-	*The tens '-' = 9
-	*X = 2
-	*H = 8
-	*The hundred thousands '-' = 0
-	*M = 4
-	*R = 7
-	*The thousands '-' = 5
+ * The ten millions '-' = 1
+ * K = 3
+ * E = 6
+ * The tens '-' = 9
+ * X = 2
+ * H = 8
+ * The hundred thousands '-' = 0
+ * M = 4
+ * R = 7
+ * The thousands '-' = 5
 
 
 At last, we have 'erased' any fear of smudged numbers!
@@ -188,11 +188,11 @@ We can rewrite the problem already:
 ```
 
 At this point, we know the following:
-	*Y = 6
-	*D = 3
-	*E = 1
-	*Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)
-	*Our remaining varaibles are	(T B M K H R P)
+ * Y = 6
+ * D = 3
+ * E = 1
+ * Our remaining digits to use are (0, 2, 4, 5, 7, 8, 9)
+ * Our remaining varaibles are	(T B M K H R P)
 
 Looking at the hundred thousands place, we can see B + B = 1.
 B + B = 1 is only possible with a carryover, as twice the sum of any number must be an even number and 1 is not even.
@@ -210,14 +210,14 @@ Rewriting the equation with this information:
 ```
 
 At this point, we know the following:
-	*Y = 6
-	*D = 3
-	*E = 1
-	*T = 9
-	*H = 7
-	*R = 0
-	*Our remaining digits to use are (2, 4, 5, 8)
-	*Our remaining variables are	(B M K P)
+ * Y = 6
+ * D = 3
+ * E = 1
+ * T = 9
+ * H = 7
+ * R = 0
+ * Our remaining digits to use are (2, 4, 5, 8)
+ * Our remaining variables are	(B M K P)
 
 
 From here, we can see that between the two options for B, B must be 5, as 0 + 0 = 1, and 0 + 3 != 9
@@ -230,24 +230,24 @@ Thus, M = 2 and P = 8
 We can rewrite once more:
 ```
        (1)(1)   (1)
-        6  9  5  5  1  3  2  K  3
+			 	6  9  5  5  1  3  2  K  3
 +       6  7  3  5  9  6  6  3  3
  ________________________________
      1  3  6  9  1  0  9  8  9  6
 ```
 
 We know:
-	*Y = 6
-	*D = 3
-	*E = 1
-	*T = 9
-	*H = 7
-	*R = 0
-	*B = 5
-	*M = 2
-	*P = 8
-	*Our remaining digit is 		(4)
-	*Our remaining variable is 	(K)
+ * Y = 6
+ * D = 3
+ * E = 1
+ * T = 9
+ * H = 7
+ * R = 0
+ * B = 5
+ * M = 2
+ * P = 8
+ * Our remaining digit is 		(4)
+ * Our remaining variable is 	(K)
 
 
 Immediately, we can see that if K = 4, 4 + 3 = 7 != 9 in the tens place. Thus the K is incorrect, and must be replaced with a Y
