@@ -8,8 +8,8 @@ In the first equation, letters accidentally were smudged on their clandestine jo
 
 Given:
 ```
-		E  X  M  R  E  E  K
-+		E  H  K  R  E  K  K
+    E  X  M  R  E  E  K
++   E  H  K  R  E  K  K
  __________________________
  -  K  -  H  -  X  -  E
 ```
@@ -52,7 +52,7 @@ So far, we know the following:
 We can rewrite the problem as follows:
 ```
        (1)
-			 	6  X  M  R  6  6  3
+        6  X  M  R  6  6  3
 +       6  H  3  R  6  3  3
  __________________________
      1  3  -  H  -  X  -  6
@@ -67,7 +67,7 @@ With no carryover from the tens place, the sum in the hundreds place is 6 + 6. T
 Rewriting again:
 ```
        (1)      (1)
-			 	6  2  M  R  6  6  3
+        6  2  M  R  6  6  3
 +       6  H  3  R  6  3  3
  __________________________
      1  3  -  H  -  2  9  6
@@ -91,7 +91,7 @@ This means that H = 8, which means the hundred thousands '-' = 0
 Now, we have:
 ```
        (1)      (1)
-			 	6  2  M  R  6  6  3
+        6  2  M  R  6  6  3
 +       6  8  3  R  6  3  3
  __________________________
      1  3  0  8  -  2  9  6
@@ -127,7 +127,7 @@ Looking at the remaining parts of the equation, we can see that either M + 3 = 8
 
 With all of this information, we end up with:
 ```
-				6  2  4  7  6  6  3
+        6  2  4  7  6  6  3
 +       6  8  3  7  6  3  3
  __________________________
      1  3  0  8  5  2  9  6
@@ -160,7 +160,7 @@ In the second equation, our mathematical spies have said that one of the letters
 
 Given:
 ```
-				Y  T  B  B  E  D  M  K  D
+        Y  T  B  B  E  D  M  K  D
 +       Y  H  D  B  T  Y  Y  D  D
  ________________________________
      E  D  Y  T  E  R  T  P  T  Y
@@ -181,7 +181,7 @@ Additionally, we know E must be 1, as we've established the sum of two digits ca
 We can rewrite the problem already:
 ```
        (1)
-			 	6  T  B  B  1  3  M  K  3
+        6  T  B  B  1  3  M  K  3
 +       6  H  3  B  T  6  6  3  3
  ________________________________
      1  3  6  T  1  R  T  P  T  6
@@ -203,7 +203,7 @@ If T = 9, R = 0, as in the ten thousands place, the sum must end in a 0
 Rewriting the equation with this information:
 ```
        (1)(1)
-			 	6  9  B  B  1  3  M  K  3
+        6  9  B  B  1  3  M  K  3
 +       6  7  3  B  9  6  6  3  3
  ________________________________
      1  3  6  9  1  0  9  P  9  6
@@ -230,7 +230,7 @@ Thus, M = 2 and P = 8
 We can rewrite once more:
 ```
        (1)(1)   (1)
-			 	6  9  5  5  1  3  2  K  3
+        6  9  5  5  1  3  2  K  3
 +       6  7  3  5  9  6  6  3  3
  ________________________________
      1  3  6  9  1  0  9  8  9  6
@@ -253,10 +253,10 @@ We know:
 Immediately, we can see that if K = 4, 4 + 3 = 7 != 9 in the tens place. Thus the K is incorrect, and must be replaced with a Y
 
 ```
-				6  9  5  5  1  3  2  6  3
-+       6  7  3  5  9  6  6  3  3
+    6  9  5  5  1  3  2  6  3
++   6  7  3  5  9  6  6  3  3
  ________________________________
-     1  3  6  9  1  0  9  8  9  6
+ 1  3  6  9  1  0  9  8  9  6
 ```
 
 
