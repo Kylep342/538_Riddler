@@ -28,7 +28,7 @@ All 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) appear in the equation.
 
 Solution/Reasoning:
 
-Immediately, knowing the sum of two digits with carryover is bounded in the range [1, 19], we can conclude that the leftmost '-' is a 1 (assuming the Riddler is not a moster who uses leading zeroes)
+Immediately, knowing the sum of two digits with carryover is bounded in the range [1, 19], we can conclude that the leftmost '-' is a 1 (assuming the Riddler is not a monster who uses leading zeroes)
 
 Starting with the right most sum, E must be even, as 2 * any number (K + K = 2K) is even. This limits E to one of (0, 2, 4, 6, 8)
 Furthermore, since E + E is the leftmost pair, and yields a sum in the 10's of millions, E + E must be greater than 10 to yield that carry-over. This further limits E to one of (6, 8)
