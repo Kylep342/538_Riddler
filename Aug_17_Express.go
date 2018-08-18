@@ -1,14 +1,15 @@
 package main
 
 import (
+  "flag"
   "fmt"
   "math/rand"
   "time"
 )
 
-func play() int {
+func play(nums int) int {
   var cards []int
-  for i := 0; i < 9; i++ {
+  for i := 0; i < nums; i++ {
     cards = append(cards, i+2)
   }
 
@@ -57,10 +58,15 @@ func play() int {
 }
 
 func main() {
+  nums := flag.Int("nums", 9, "Number of numbered cards, starting from 2.")
+  games := flag.Int("games", 1000000, "Number of games to simulate.")
+  flag.Parse()
+
   rand.Seed(time.Now().UTC().UnixNano())
+
   var wins int
-  for i := 0; i < 1000000; i++ {
-    wins += play()
+  for i := 0; i < *games; i++ {
+    wins += play(*nums)
   }
-  fmt.Printf("In 1000000 games, you won %d times!\n", wins)
+  fmt.Printf("In %d games, you won %d times!\n", *games, wins)
 }
