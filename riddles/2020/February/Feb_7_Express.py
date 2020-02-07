@@ -15,3 +15,7 @@ def main():
 if __name__ == '__main__':
     main()
 
+
+# prints (as of 02/07/2020):
+# The 8 palindrome dates remaining in this century are:
+# ['12/02/2021', '03/02/2030', '04/02/2040', '05/02/2050', '06/02/2060', '07/02/2070', '08/02/2080', '09/02/2090']
